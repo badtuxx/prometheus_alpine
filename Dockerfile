@@ -1,4 +1,5 @@
 FROM alpine
+LABEL maintainer="jeferson@linuxtips.com.br"
 
 RUN adduser -s /bin/false -D -H prometheus \
     && adduser -s /bin/false -D -H node_exporter \
