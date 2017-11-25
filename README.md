@@ -2,7 +2,7 @@
 
 ## To run this image, execute:
 ```
-# docker container run -d -p 9090:9090 linuxtips/prometheus_alpine
+# docker container run -d --name prometheus -p 9090:9090 linuxtips/prometheus_alpine
 ```
 
 Open http://your_ip:9090 to access the interface of Prometheus.
