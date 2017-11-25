@@ -1,4 +1,4 @@
-# Prometheus-Alpine
+# Prometheus on Alpine
 
 ## To run this image, execute:
 ```
